@@ -1,8 +1,5 @@
 ![Fall Armyworm]({{ site.header_image }})
  
-**Master of Biotechnology Candidate**  
-The Pennsylvania State University, State College, PA  
-
 ## Education
 
 **The Pennsylvania State University** — State College, PA  
