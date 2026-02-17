@@ -1,0 +1,76 @@
+---
+title: "Bailey M. Barenick"
+subtitle: "MSc Candidate in Biotechnology"
+page-layout: full
+toc: true
+---
+
+![Chopra Maize Genetics Lab](chopra_maize_genetics_lab_logo.jpg)
+
+## Education
+
+**The Pennsylvania State University** — State College, PA
+- **Master of Biotechnology** (Aug. 2025 – Present)
+- **Bachelor of Science in Biotechnology, General Option** (Aug. 2021 – May 2025)
+
+---
+
+## Technical Skills & Methodologies
+
+### Molecular Biology & Cell Culture
+- DNA/RNA extraction, PCR, RT-PCR, qPCR, cDNA synthesis, gel electrophoresis
+- Spectrophotometric quantification of nucleic acid concentration and purity
+- Mammalian and plant cell line transformation and cultivation
+- Culture purification and microbial identification assays
+- Drug supplementation and maintenance of microbial, mammalian, and plant cultures
+- Bacteriophage purification and maintenance from lysates
+
+### Protein & Fermentation
+- Certified in bacterial fermentation, mechanical lysing, and protein purification
+- Applied fermentation methods for product testing, bio-fermentation training, and quality assurance
+
+### Analytical Testing & Quality Practices
+- Microbiological assays, sample analysis, and contamination prevention
+- GMP compliance, food safety protocols, and QA documentation
+- Maintenance of detailed lab notebooks, technical reports, and presentations
+
+### Documentation & Project Management
+- Authoring and maintenance of SOPs, lab manuals, memoranda, work orders, and executive summaries
+- Coordination of culturally diverse teams in lab and classroom environments
+- Application of agile and team-based problem-solving strategies
+
+---
+
+## Research Experience
+
+**Graduate Research Intern** — Chopra Maize Genetics Lab, Penn State
+*Sept. 2025 – Present*
+- Investigate maize-derived flavonoids and their role in fall armyworm resistance and leaf microbiome composition
+- Perform DNA extraction, PCR, qPCR, and gel electrophoresis to assess gene expression
+- Analyze microbial community shifts using advanced molecular techniques
+- Utilize R programming language for data analysis and figure generation
+- Prepare ensilage and collect samples from field- and greenhouse-grown maize and sorghum
+- Maintain rigorous lab documentation and adhere to strict quality control protocols
+
+---
+
+## Selected Project Experience
+
+- **Microbial Paraffin Degradation**: Developed a microbial-based strategy to degrade paraffin wax buildup in crude oil wells
+- **Genetic Engineering in Crops**: Engineered a genetic modification approach to enhance nitrogen fixation in legume cover crops
+
+---
+
+## Leadership & Extracurricular Involvement
+
+**Penn State Synthetic Biology Club** — Member
+*Oct. 2023 – May 2025*
+- Developed educational modules for the iGEM Educational Outreach sub-team
+
+**Penn State Success in Industrial Biotechnology** — Member
+- Completed certification in bio-fermentation
+- Engaged with mentors from biotechnology and pharmaceutical industries
+
+**Asian Cultural Exchange Club** — Vice President
+- Organized meetings and facilitated communication among diverse members
+- Managed documentation, treasury, and funding requests

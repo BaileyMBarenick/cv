@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Bailey M. Barenick"
+  description: "MSc Candidate in Biotechnology at Pennsylvania State University in the Chopra Maize Genetics Lab"
+  site-url: https://baileymbbarenick.github.io/cv
+
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - icon: github
+        href: https://github.com/BaileyMBarenick
+
+  page-footer:
+    center: "© 2026 Bailey M. Barenick"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 2

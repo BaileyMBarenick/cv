@@ -1,0 +1,161 @@
+---
+title: "Building This Website with Quarto"
+subtitle: "From Jekyll to Quarto: A Modern Academic Website"
+author: "Bailey M. Barenick"
+date: "2026-02-17"
+categories: [quarto, web-development, tutorial]
+draft: false
+---
+
+## Introduction
+
+Welcome to my new website! This post documents the process of building this site using [Quarto](https://quarto.org), a modern open-source scientific and technical publishing system. The transition from Jekyll to Quarto represents a significant upgrade in functionality and flexibility, particularly for someone working at the intersection of biotechnology and data science.
+
+## Why Quarto?
+
+When I decided to rebuild my professional website, I had several requirements:
+
+- **Scientific publishing capabilities**: As a biotechnology graduate student working with data analysis in R, I need a platform that can seamlessly integrate code, visualizations, and narrative text
+- **Modern, professional appearance**: A clean, responsive design suitable for both CV presentation and blogging
+- **Blog functionality**: The ability to share research insights, methodologies, and tutorials
+- **Easy maintenance**: Simple content management without complex build processes
+- **Automated deployment**: Push changes to GitHub and have the site automatically update
+
+Quarto checks all these boxes and more. Built by the creators of RStudio, Quarto is designed specifically for technical and scientific communication, supporting R, Python, Julia, and Observable JS.
+
+## The Conversion Process
+
+### From Jekyll to Quarto
+
+The original site was built with Jekyll using the Tactile theme. While Jekyll served its purpose for a static CV, Quarto offers several advantages:
+
+1. **Native support for computational content**: I can embed R code, Python scripts, and interactive visualizations directly in posts
+2. **Better scientific formatting**: Built-in support for citations, cross-references, equations, and figures
+3. **Unified workflow**: The same tool works for websites, blogs, books, presentations, and academic papers
+4. **Modern themes**: Professional, responsive themes optimized for technical content
+
+The conversion involved:
+
+- Creating a `_quarto.yml` configuration file with site metadata and navigation structure
+- Converting `index.md` to `index.qmd` with Quarto-specific YAML front matter
+- Setting up the blog structure with a posts directory
+- Configuring GitHub Actions for automated deployment
+
+### Site Structure
+
+The Quarto website is organized as follows:
+
+```
+cv/
+├── _quarto.yml           # Main configuration
+├── index.qmd             # CV homepage
+├── blog.qmd              # Blog listing page
+├── styles.css            # Custom styling
+└── posts/                # Blog posts directory
+    └── 2026-02-17-building-this-site/
+        └── index.qmd     # This post!
+```
+
+Each blog post lives in its own dated directory, making it easy to include post-specific images, data files, or other assets.
+
+### Configuration Highlights
+
+The `_quarto.yml` file defines the entire website structure:
+
+```yaml
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Bailey M. Barenick"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Blog"
+        href: blog.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+```
+
+I chose the **Cosmo** theme for its professional appearance and excellent readability. The table of contents feature is particularly useful for navigating the CV sections.
+
+### Setting Up the Blog
+
+The blog functionality in Quarto is remarkably straightforward. The `blog.qmd` file contains a simple listing configuration:
+
+```yaml
+---
+title: "Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+---
+```
+
+This automatically generates a blog listing page that displays all posts from the `posts/` directory, sorted by date, with category tags and reading time estimates.
+
+## GitHub Actions Deployment
+
+One of the most powerful features of this setup is automated deployment via GitHub Actions. Every time I push changes to the main branch, the site is automatically rebuilt and published to GitHub Pages.
+
+The workflow file (`.github/workflows/publish.yml`) uses official Quarto actions:
+
+```yaml
+name: Publish Quarto Website
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+```
+
+This three-step process checks out the repository, sets up Quarto, and publishes the rendered site to the `gh-pages` branch. No manual building or deployment needed!
+
+## What's Next?
+
+Now that the infrastructure is in place, I'm excited to share content about:
+
+- **Maize genetics research**: Updates from the Chopra Lab on fall armyworm resistance and flavonoid biosynthesis
+- **Biotechnology methodologies**: Protocols, techniques, and lessons learned in the lab
+- **Data analysis tutorials**: R workflows for analyzing microbial community data and gene expression
+- **Scientific visualization**: Creating compelling figures and graphics for research communication
+- **Professional development**: Navigating graduate school and the biotechnology industry
+
+## Getting Started with Quarto
+
+If you're interested in building your own site with Quarto, here are some excellent resources:
+
+- [Quarto Official Documentation](https://quarto.org/docs/)
+- [Creating a Blog with Quarto](https://quarto.org/docs/websites/website-blog.html)
+- [GitHub Pages Publishing Guide](https://quarto.org/docs/publishing/github-pages.html)
+- [Quarto GitHub Actions](https://github.com/quarto-dev/quarto-actions)
+
+The learning curve is gentle, especially if you're already familiar with Markdown and YAML. For scientists and researchers who work with R or Python, Quarto is a game-changer.
+
+## Conclusion
+
+Building this website with Quarto has been a rewarding experience. The platform provides exactly what I need: a professional CV presentation, blog capabilities, and the potential to share computational work with integrated code and visualizations. The automated deployment through GitHub Actions means I can focus on content rather than infrastructure.
+
+I encourage anyone working in science, technology, or academia to consider Quarto for their professional website. It's free, open-source, and designed specifically for technical communication.
+
+Thanks for reading, and stay tuned for more posts on biotechnology, research, and data science!
+
+---
+
+*Want to see how this site was built? Check out the [source code on GitHub](https://github.com/BaileyMBarenick/cv).*

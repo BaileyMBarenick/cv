@@ -1,0 +1,24 @@
+/* Professional heading styles */
+h2 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+/* Image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Skills list formatting */
+ul {
+  line-height: 1.8;
+}
+
+/* Improve spacing for CV sections */
+hr {
+  margin: 2rem 0;
+  border-top: 1px solid #dee2e6;
+}
