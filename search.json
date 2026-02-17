@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "posts/2026-02-17-building-this-site/index.html",
+    "href": "posts/2026-02-17-building-this-site/index.html",
+    "title": "Building This Website with Quarto",
+    "section": "",
+    "text": "Welcome to my new website! This post documents the process of building this site using Quarto, a modern open-source scientific and technical publishing system. The transition from Jekyll to Quarto represents a significant upgrade in functionality and flexibility, particularly for someone working at the intersection of biotechnology and data science."
+  },
+  {
+    "objectID": "posts/2026-02-17-building-this-site/index.html#introduction",
+    "href": "posts/2026-02-17-building-this-site/index.html#introduction",
+    "title": "Building This Website with Quarto",
+    "section": "",
+    "text": "Welcome to my new website! This post documents the process of building this site using Quarto, a modern open-source scientific and technical publishing system. The transition from Jekyll to Quarto represents a significant upgrade in functionality and flexibility, particularly for someone working at the intersection of biotechnology and data science."
+  },
+  {
+    "objectID": "posts/2026-02-17-building-this-site/index.html#why-quarto",
+    "href": "posts/2026-02-17-building-this-site/index.html#why-quarto",
+    "title": "Building This Website with Quarto",
+    "section": "Why Quarto?",
+    "text": "Why Quarto?\nWhen I decided to rebuild my professional website, I had several requirements:\n\nScientific publishing capabilities: As a biotechnology graduate student working with data analysis in R, I need a platform that can seamlessly integrate code, visualizations, and narrative text\nModern, professional appearance: A clean, responsive design suitable for both CV presentation and blogging\nBlog functionality: The ability to share research insights, methodologies, and tutorials\nEasy maintenance: Simple content management without complex build processes\nAutomated deployment: Push changes to GitHub and have the site automatically update\n\nQuarto checks all these boxes and more. Built by the creators of RStudio, Quarto is designed specifically for technical and scientific communication, supporting R, Python, Julia, and Observable JS."
+  },
+  {
+    "objectID": "posts/2026-02-17-building-this-site/index.html#the-conversion-process",
+    "href": "posts/2026-02-17-building-this-site/index.html#the-conversion-process",
+    "title": "Building This Website with Quarto",
+    "section": "The Conversion Process",
+    "text": "The Conversion Process\n\nFrom Jekyll to Quarto\nThe original site was built with Jekyll using the Tactile theme. While Jekyll served its purpose for a static CV, Quarto offers several advantages:\n\nNative support for computational content: I can embed R code, Python scripts, and interactive visualizations directly in posts\nBetter scientific formatting: Built-in support for citations, cross-references, equations, and figures\nUnified workflow: The same tool works for websites, blogs, books, presentations, and academic papers\nModern themes: Professional, responsive themes optimized for technical content\n\nThe conversion involved:\n\nCreating a _quarto.yml configuration file with site metadata and navigation structure\nConverting index.md to index.qmd with Quarto-specific YAML front matter\nSetting up the blog structure with a posts directory\nConfiguring GitHub Actions for automated deployment\n\n\n\nSite Structure\nThe Quarto website is organized as follows:\ncv/\n├── _quarto.yml           # Main configuration\n├── index.qmd             # CV homepage\n├── blog.qmd              # Blog listing page\n├── styles.css            # Custom styling\n└── posts/                # Blog posts directory\n    └── 2026-02-17-building-this-site/\n        └── index.qmd     # This post!\nEach blog post lives in its own dated directory, making it easy to include post-specific images, data files, or other assets.\n\n\nConfiguration Highlights\nThe _quarto.yml file defines the entire website structure:\nproject:\n  type: website\n  output-dir: _site\n\nwebsite:\n  title: \"Bailey M. Barenick\"\n  navbar:\n    left:\n      - text: \"Home\"\n        href: index.qmd\n      - text: \"Blog\"\n        href: blog.qmd\n\nformat:\n  html:\n    theme: cosmo\n    toc: true\nI chose the Cosmo theme for its professional appearance and excellent readability. The table of contents feature is particularly useful for navigating the CV sections.\n\n\nSetting Up the Blog\nThe blog functionality in Quarto is remarkably straightforward. The blog.qmd file contains a simple listing configuration:\n---\ntitle: \"Blog\"\nlisting:\n  contents: posts\n  sort: \"date desc\"\n  type: default\n  categories: true\n---\nThis automatically generates a blog listing page that displays all posts from the posts/ directory, sorted by date, with category tags and reading time estimates."
+  },
+  {
+    "objectID": "posts/2026-02-17-building-this-site/index.html#github-actions-deployment",
+    "href": "posts/2026-02-17-building-this-site/index.html#github-actions-deployment",
+    "title": "Building This Website with Quarto",
+    "section": "GitHub Actions Deployment",
+    "text": "GitHub Actions Deployment\nOne of the most powerful features of this setup is automated deployment via GitHub Actions. Every time I push changes to the main branch, the site is automatically rebuilt and published to GitHub Pages.\nThe workflow file (.github/workflows/publish.yml) uses official Quarto actions:\nname: Publish Quarto Website\n\non:\n  push:\n    branches: [main]\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n      - uses: quarto-dev/quarto-actions/setup@v2\n      - uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\nThis three-step process checks out the repository, sets up Quarto, and publishes the rendered site to the gh-pages branch. No manual building or deployment needed!"
+  },
+  {
+    "objectID": "posts/2026-02-17-building-this-site/index.html#whats-next",
+    "href": "posts/2026-02-17-building-this-site/index.html#whats-next",
+    "title": "Building This Website with Quarto",
+    "section": "What’s Next?",
+    "text": "What’s Next?\nNow that the infrastructure is in place, I’m excited to share content about:\n\nMaize genetics research: Updates from the Chopra Lab on fall armyworm resistance and flavonoid biosynthesis\nBiotechnology methodologies: Protocols, techniques, and lessons learned in the lab\nData analysis tutorials: R workflows for analyzing microbial community data and gene expression\nScientific visualization: Creating compelling figures and graphics for research communication\nProfessional development: Navigating graduate school and the biotechnology industry"
+  },
+  {
+    "objectID": "posts/2026-02-17-building-this-site/index.html#getting-started-with-quarto",
+    "href": "posts/2026-02-17-building-this-site/index.html#getting-started-with-quarto",
+    "title": "Building This Website with Quarto",
+    "section": "Getting Started with Quarto",
+    "text": "Getting Started with Quarto\nIf you’re interested in building your own site with Quarto, here are some excellent resources:\n\nQuarto Official Documentation\nCreating a Blog with Quarto\nGitHub Pages Publishing Guide\nQuarto GitHub Actions\n\nThe learning curve is gentle, especially if you’re already familiar with Markdown and YAML. For scientists and researchers who work with R or Python, Quarto is a game-changer."
+  },
+  {
+    "objectID": "posts/2026-02-17-building-this-site/index.html#conclusion",
+    "href": "posts/2026-02-17-building-this-site/index.html#conclusion",
+    "title": "Building This Website with Quarto",
+    "section": "Conclusion",
+    "text": "Conclusion\nBuilding this website with Quarto has been a rewarding experience. The platform provides exactly what I need: a professional CV presentation, blog capabilities, and the potential to share computational work with integrated code and visualizations. The automated deployment through GitHub Actions means I can focus on content rather than infrastructure.\nI encourage anyone working in science, technology, or academia to consider Quarto for their professional website. It’s free, open-source, and designed specifically for technical communication.\nThanks for reading, and stay tuned for more posts on biotechnology, research, and data science!\n\nWant to see how this site was built? Check out the source code on GitHub."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bailey M. Barenick",
+    "section": "",
+    "text": "Chopra Maize Genetics Lab"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Bailey M. Barenick",
+    "section": "Education",
+    "text": "Education\nThe Pennsylvania State University — State College, PA - Master of Biotechnology (Aug. 2025 – Present) - Bachelor of Science in Biotechnology, General Option (Aug. 2021 – May 2025)"
+  },
+  {
+    "objectID": "index.html#technical-skills-methodologies",
+    "href": "index.html#technical-skills-methodologies",
+    "title": "Bailey M. Barenick",
+    "section": "Technical Skills & Methodologies",
+    "text": "Technical Skills & Methodologies\n\nMolecular Biology & Cell Culture\n\nDNA/RNA extraction, PCR, RT-PCR, qPCR, cDNA synthesis, gel electrophoresis\nSpectrophotometric quantification of nucleic acid concentration and purity\nMammalian and plant cell line transformation and cultivation\nCulture purification and microbial identification assays\nDrug supplementation and maintenance of microbial, mammalian, and plant cultures\nBacteriophage purification and maintenance from lysates\n\n\n\nProtein & Fermentation\n\nCertified in bacterial fermentation, mechanical lysing, and protein purification\nApplied fermentation methods for product testing, bio-fermentation training, and quality assurance\n\n\n\nAnalytical Testing & Quality Practices\n\nMicrobiological assays, sample analysis, and contamination prevention\nGMP compliance, food safety protocols, and QA documentation\nMaintenance of detailed lab notebooks, technical reports, and presentations\n\n\n\nDocumentation & Project Management\n\nAuthoring and maintenance of SOPs, lab manuals, memoranda, work orders, and executive summaries\nCoordination of culturally diverse teams in lab and classroom environments\nApplication of agile and team-based problem-solving strategies"
+  },
+  {
+    "objectID": "index.html#research-experience",
+    "href": "index.html#research-experience",
+    "title": "Bailey M. Barenick",
+    "section": "Research Experience",
+    "text": "Research Experience\nGraduate Research Intern — Chopra Maize Genetics Lab, Penn State Sept. 2025 – Present - Investigate maize-derived flavonoids and their role in fall armyworm resistance and leaf microbiome composition - Perform DNA extraction, PCR, qPCR, and gel electrophoresis to assess gene expression - Analyze microbial community shifts using advanced molecular techniques - Utilize R programming language for data analysis and figure generation - Prepare ensilage and collect samples from field- and greenhouse-grown maize and sorghum - Maintain rigorous lab documentation and adhere to strict quality control protocols"
+  },
+  {
+    "objectID": "index.html#selected-project-experience",
+    "href": "index.html#selected-project-experience",
+    "title": "Bailey M. Barenick",
+    "section": "Selected Project Experience",
+    "text": "Selected Project Experience\n\nMicrobial Paraffin Degradation: Developed a microbial-based strategy to degrade paraffin wax buildup in crude oil wells\nGenetic Engineering in Crops: Engineered a genetic modification approach to enhance nitrogen fixation in legume cover crops"
+  },
+  {
+    "objectID": "index.html#leadership-extracurricular-involvement",
+    "href": "index.html#leadership-extracurricular-involvement",
+    "title": "Bailey M. Barenick",
+    "section": "Leadership & Extracurricular Involvement",
+    "text": "Leadership & Extracurricular Involvement\nPenn State Synthetic Biology Club — Member Oct. 2023 – May 2025 - Developed educational modules for the iGEM Educational Outreach sub-team\nPenn State Success in Industrial Biotechnology — Member - Completed certification in bio-fermentation - Engaged with mentors from biotechnology and pharmaceutical industries\nAsian Cultural Exchange Club — Vice President - Organized meetings and facilitated communication among diverse members - Managed documentation, treasury, and funding requests"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Building This Website with Quarto\n\n\nFrom Jekyll to Quarto: A Modern Academic Website\n\n\n\nquarto\n\nweb-development\n\ntutorial\n\n\n\n\n\n\nFeb 17, 2026\n\n5 min\n\n\n\n\nNo matching items"
+  }
+]
