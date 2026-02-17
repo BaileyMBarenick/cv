@@ -1,4 +1,4 @@
-# Bailey Barenick  
+ 
 **Master of Biotechnology Candidate**  
 The Pennsylvania State University, State College, PA  
 
