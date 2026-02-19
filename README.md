@@ -12,7 +12,7 @@ Visit the live site at: https://baileymbbarenick.github.io/cv/
 
 This website serves as both a professional CV and a blog platform for sharing insights about biotechnology research, data analysis, and scientific computing. The site features:
 
-- **CV Homepage**: Comprehensive curriculum vitae with education, research experience, technical skills, leadership activities, and a collapsible relevant coursework section
+- **CV Homepage**: Comprehensive curriculum vitae with a three-image header (lab logo, DNA analysis, maize), education, research experience, technical skills, leadership activities, and a collapsible relevant coursework section
 - **Blog**: Technical writing on maize genetics, biotechnology methodologies, R/Python workflows, and scientific visualization
 - **Automated Deployment**: Changes pushed to the main branch automatically build and deploy via GitHub Actions
 
@@ -45,9 +45,10 @@ cv/
 │   └── 2026-02-17-building-this-site/
 │       └── index.qmd            # Each post in its own dated folder
 ├── _quarto.yml                  # Main Quarto configuration
-├── index.qmd                    # CV homepage (with collapsible coursework section)
+├── index.qmd                    # CV homepage (three-image header, collapsible coursework)
 ├── blog.qmd                     # Blog listing page
 ├── styles.css                   # Custom CSS styling
+├── chopra_maize_genetics_lab_logo.jpg  # Lab logo (used in three-image header)
 ├── Relevant Coursework.md       # Source for the coursework dropdown on the CV
 ├── .gitignore                   # Excludes build artifacts (_site/, .quarto/)
 └── README.md                    # This file
