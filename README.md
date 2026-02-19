@@ -12,7 +12,7 @@ Visit the live site at: https://baileymbbarenick.github.io/cv/
 
 This website serves as both a professional CV and a blog platform for sharing insights about biotechnology research, data analysis, and scientific computing. The site features:
 
-- **CV Homepage**: Comprehensive curriculum vitae with education, research experience, technical skills, and leadership activities
+- **CV Homepage**: Comprehensive curriculum vitae with education, research experience, technical skills, leadership activities, and a collapsible relevant coursework section
 - **Blog**: Technical writing on maize genetics, biotechnology methodologies, R/Python workflows, and scientific visualization
 - **Automated Deployment**: Changes pushed to the main branch automatically build and deploy via GitHub Actions
 
@@ -45,9 +45,10 @@ cv/
 │   └── 2026-02-17-building-this-site/
 │       └── index.qmd            # Each post in its own dated folder
 ├── _quarto.yml                  # Main Quarto configuration
-├── index.qmd                    # CV homepage
+├── index.qmd                    # CV homepage (with collapsible coursework section)
 ├── blog.qmd                     # Blog listing page
 ├── styles.css                   # Custom CSS styling
+├── Relevant Coursework.md       # Source for the coursework dropdown on the CV
 ├── .gitignore                   # Excludes build artifacts (_site/, .quarto/)
 └── README.md                    # This file
 ```
@@ -75,7 +76,7 @@ The GitHub Actions workflow automatically builds the site and pushes rendered HT
 
 ### Updating Your CV
 
-Edit `index.qmd` with your latest information:
+Edit `index.qmd` with your latest information. The page includes a collapsible **Relevant Coursework** dropdown at the bottom — to update it, edit the coursework list directly in `index.qmd` or keep `Relevant Coursework.md` as a reference and copy changes across.
 
 ```bash
 # Edit the file
