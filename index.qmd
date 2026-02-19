@@ -5,7 +5,13 @@ page-layout: full
 toc: true
 ---
 
-![Chopra Maize Genetics Lab](chopra_maize_genetics_lab_logo.jpg)
+::: {layout-ncol=3}
+![Chopra Maize Genetics Lab logo](chopra_maize_genetics_lab_logo.jpg)
+
+![DNA double helix analysis visualization](https://dnatestingchoice.com/perch/resources/dna-analysis-w435.jpg)
+
+![Ears of corn on the stalk](https://cdn.britannica.com/36/167236-050-BF90337E/Ears-corn.jpg)
+:::
 
 ## Education
 
