@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog – Bailey M. Barenick</title>
+<title>relevant-coursework – Bailey M. Barenick</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -70,65 +68,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -155,7 +95,7 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item compact">
@@ -171,76 +111,102 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cXVhcnRv">quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHV0b3JpYWw=">tutorial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2ViLWRldmVsb3BtZW50">web-development <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#relevant-coursework" id="toc-relevant-coursework" class="nav-link active" data-scroll-target="#relevant-coursework">Relevant Coursework</a>
+  <ul class="collapse">
+  <li><a href="#biochemistry-molecular-biology" id="toc-biochemistry-molecular-biology" class="nav-link" data-scroll-target="#biochemistry-molecular-biology">Biochemistry &amp; Molecular Biology</a></li>
+  <li><a href="#biology-genetics" id="toc-biology-genetics" class="nav-link" data-scroll-target="#biology-genetics">Biology &amp; Genetics</a></li>
+  <li><a href="#chemistry" id="toc-chemistry" class="nav-link" data-scroll-target="#chemistry">Chemistry</a></li>
+  <li><a href="#microbiology-immunology" id="toc-microbiology-immunology" class="nav-link" data-scroll-target="#microbiology-immunology">Microbiology &amp; Immunology</a></li>
+  <li><a href="#biotechnology-applied-biosciences" id="toc-biotechnology-applied-biosciences" class="nav-link" data-scroll-target="#biotechnology-applied-biosciences">Biotechnology &amp; Applied Biosciences</a></li>
+  <li><a href="#research-professional-development" id="toc-research-professional-development" class="nav-link" data-scroll-target="#research-professional-development">Research &amp; Professional Development</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Blog</h1>
-<p class="subtitle lead">Thoughts on biotechnology, research, and scientific computing</p>
-</div>
-
-
-
-<div class="quarto-title-meta column-page-left">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
+<section id="relevant-coursework" class="level1">
+<h1>Relevant Coursework</h1>
+<section id="biochemistry-molecular-biology" class="level2">
+<h2 class="anchored" data-anchor-id="biochemistry-molecular-biology">Biochemistry &amp; Molecular Biology</h2>
+<ul>
+<li>Elementary Biochemistry</li>
+<li>Applied Biochemistry</li>
+<li>Molecular &amp; Cell Biology I</li>
+<li>Molecular &amp; Cell Biology II</li>
+<li>Molecular Biology of the Gene</li>
+<li>Molecular Toxicology</li>
+<li>Cell Growth &amp; Differentiation</li>
+<li>Protein &amp; Molecular Cloning Laboratory</li>
+<li>Molecular Biology Laboratory</li>
+</ul>
+</section>
+<section id="biology-genetics" class="level2">
+<h2 class="anchored" data-anchor-id="biology-genetics">Biology &amp; Genetics</h2>
+<ul>
+<li>Biology: Concepts of Biodiversity</li>
+<li>Genetics</li>
+<li>Biology of Cancer</li>
+<li>Special Topics: Sensory Biology</li>
+</ul>
+</section>
+<section id="chemistry" class="level2">
+<h2 class="anchored" data-anchor-id="chemistry">Chemistry</h2>
+<ul>
+<li>Chemical Principles I &amp; II</li>
+<li>Experimental Chemistry I &amp; II</li>
+<li>Organic Chemistry I &amp; II</li>
+<li>Organic Chemistry Laboratory</li>
+</ul>
+</section>
+<section id="microbiology-immunology" class="level2">
+<h2 class="anchored" data-anchor-id="microbiology-immunology">Microbiology &amp; Immunology</h2>
+<ul>
+<li>Introductory Microbiology</li>
+<li>Introductory Microbiology Laboratory</li>
+<li>Principles of Immunology</li>
+<li>Laboratory General Applied Microbiology</li>
+<li>Microbial Biotechnology</li>
+</ul>
+</section>
+<section id="biotechnology-applied-biosciences" class="level2">
+<h2 class="anchored" data-anchor-id="biotechnology-applied-biosciences">Biotechnology &amp; Applied Biosciences</h2>
+<ul>
+<li>Animal Cell Culture Methods</li>
+<li>Plant Culture and Biotechnology</li>
+<li>Methods in Biofermentation</li>
+<li>Genomics</li>
+<li>Bioinformatics I</li>
+<li>Issues in Biotechnology</li>
+<li>Research Practice</li>
+</ul>
+</section>
+<section id="research-professional-development" class="level2">
+<h2 class="anchored" data-anchor-id="research-professional-development">Research &amp; Professional Development</h2>
+<ul>
+<li>Cell Research I</li>
+<li>Individual Studies (Independent Research)</li>
+<li>Biotechnology Colloquium</li>
+<li>Ethics, Rigor &amp; Reproducibility in Research</li>
+</ul>
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="cXVhcnRvJTJDd2ViLWRldmVsb3BtZW50JTJDdHV0b3JpYWw=" data-listing-date-sort="1771286400000" data-listing-file-modified-sort="1771514220848" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="932">
-<div class="thumbnail"><a href="./posts/2026-02-17-building-this-site/index.html" class="no-external">
+</section>
+</section>
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2026-02-17-building-this-site/index.html" class="no-external">Building This Website with Quarto</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2026-02-17-building-this-site/index.html" class="no-external">From Jekyll to Quarto: A Modern Academic Website</a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cXVhcnRv'); return false;">quarto</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('d2ViLWRldmVsb3BtZW50'); return false;">web-development</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dHV0b3JpYWw='); return false;">tutorial</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2026-02-17-building-this-site/index.html" class="no-external">
-<div class="listing-date">
-Feb 17, 2026
-</div>
-<div class="listing-reading-time">5 min</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
