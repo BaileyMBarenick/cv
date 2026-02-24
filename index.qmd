@@ -133,3 +133,71 @@ toc: true
 - Biotechnology Colloquium
 - Ethics, Rigor & Reproducibility in Research
 :::
+
+---
+
+## Additional Info
+
+<details>
+<summary class="gray-toggle">Site &amp; Contact Information</summary>
+
+<div class="gray-toggle-body">
+
+### Contact
+
+**Bailey M. Barenick**
+MSc Candidate in Biotechnology
+Pennsylvania State University — Chopra Maize Genetics Lab
+GitHub: [@BaileyMBarenick](https://github.com/BaileyMBarenick)
+
+---
+
+### About This Site
+
+This website serves as both a professional CV and a blog platform for sharing insights about biotechnology research, data analysis, and scientific computing.
+
+It was originally built with Jekyll and converted to [Quarto](https://quarto.org) for its native support for scientific publishing, R/Python code execution, and modern responsive themes. Deployment is fully automated via GitHub Actions — every push to the `main` branch triggers a rebuild and publishes the rendered site to GitHub Pages.
+
+**Technology stack:**
+
+- **Framework**: Quarto
+- **Theme**: Sandstone (warm palette customised via CSS)
+- **Hosting**: GitHub Pages (`gh-pages` branch)
+- **CI/CD**: GitHub Actions
+
+---
+
+### Updating This Site
+
+**CV** — edit `index.qmd` and push to `main`.
+
+**Blog posts** — create a new folder under `posts/` following the `YYYY-MM-DD-post-title` convention, add an `index.qmd` with the front matter below, and push:
+
+```yaml
+---
+title: "Post Title"
+author: "Bailey M. Barenick"
+date: "YYYY-MM-DD"
+categories: [category1, category2]
+draft: false
+---
+```
+
+**Local preview** (requires [Quarto](https://quarto.org/docs/get-started/) installed):
+
+```bash
+quarto preview
+```
+
+---
+
+### Changelog
+
+| Date | Change |
+|---|---|
+| 2026-02-17 | Converted site from Jekyll to Quarto with blog and GitHub Actions deployment |
+| 2026-02-24 | Added relevant coursework dropdown, three-image header, UFO1 blog post |
+| 2026-02-24 | Switched to warm sandstone theme |
+
+</div>
+</details>
