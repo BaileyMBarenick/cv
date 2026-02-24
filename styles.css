@@ -1,11 +1,49 @@
-/* Professional heading styles */
+/* ── Warm colour palette ──────────────────────────────────────────────────── */
+:root {
+  --warm-brown:   #6b4c2a;
+  --warm-tan:     #c49a6c;
+  --warm-cream:   #fdf6ee;
+  --warm-border:  #d9c4a8;
+  --warm-muted:   #8c6d4f;
+}
+
+/* Page background */
+body {
+  background-color: var(--warm-cream);
+}
+
+/* ── Headings ─────────────────────────────────────────────────────────────── */
+h1, h2, h3, h4 {
+  color: var(--warm-brown);
+}
+
 h2 {
-  border-bottom: 2px solid #007bff;
+  border-bottom: 2px solid var(--warm-tan);
   padding-bottom: 0.5rem;
   margin-top: 2rem;
 }
 
-/* Image styling */
+/* ── Navbar & footer ──────────────────────────────────────────────────────── */
+.navbar {
+  background-color: var(--warm-brown) !important;
+}
+
+.nav-footer {
+  background-color: var(--warm-cream);
+  border-top: 1px solid var(--warm-border);
+  color: var(--warm-muted);
+}
+
+/* ── Links ────────────────────────────────────────────────────────────────── */
+a {
+  color: var(--warm-brown);
+}
+
+a:hover {
+  color: var(--warm-tan);
+}
+
+/* ── Images ───────────────────────────────────────────────────────────────── */
 img {
   max-width: 100%;
   height: auto;
@@ -18,15 +56,22 @@ img {
   height: 220px;
   object-fit: cover;
   border-radius: 8px;
+  border: 2px solid var(--warm-border);
 }
 
-/* Skills list formatting */
+/* ── Lists ────────────────────────────────────────────────────────────────── */
 ul {
   line-height: 1.8;
 }
 
-/* Improve spacing for CV sections */
+/* ── Dividers ─────────────────────────────────────────────────────────────── */
 hr {
   margin: 2rem 0;
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid var(--warm-border);
+}
+
+/* ── Callout (coursework dropdown) ───────────────────────────────────────── */
+.callout {
+  border-left-color: var(--warm-tan) !important;
+  background-color: #fdf0e0 !important;
 }
