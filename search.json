@@ -1,52 +1,10 @@
 [
   {
-    "objectID": "Relevant Coursework.html",
-    "href": "Relevant Coursework.html",
-    "title": "Relevant Coursework",
+    "objectID": "cv/ufo1-summary.html",
+    "href": "cv/ufo1-summary.html",
+    "title": "Bailey M. Barenick",
     "section": "",
-    "text": "Elementary Biochemistry\nApplied Biochemistry\nMolecular & Cell Biology I\nMolecular & Cell Biology II\nMolecular Biology of the Gene\nMolecular Toxicology\nCell Growth & Differentiation\nProtein & Molecular Cloning Laboratory\nMolecular Biology Laboratory\n\n\n\n\n\nBiology: Concepts of Biodiversity\nGenetics\nBiology of Cancer\nSpecial Topics: Sensory Biology\n\n\n\n\n\nChemical Principles I & II\nExperimental Chemistry I & II\nOrganic Chemistry I & II\nOrganic Chemistry Laboratory\n\n\n\n\n\nIntroductory Microbiology\nIntroductory Microbiology Laboratory\nPrinciples of Immunology\nLaboratory General Applied Microbiology\nMicrobial Biotechnology\n\n\n\n\n\nAnimal Cell Culture Methods\nPlant Culture and Biotechnology\nMethods in Biofermentation\nGenomics\nBioinformatics I\nIssues in Biotechnology\nResearch Practice\n\n\n\n\n\nCell Research I\nIndividual Studies (Independent Research)\nBiotechnology Colloquium\nEthics, Rigor & Reproducibility in Research"
-  },
-  {
-    "objectID": "Relevant Coursework.html#biochemistry-molecular-biology",
-    "href": "Relevant Coursework.html#biochemistry-molecular-biology",
-    "title": "Relevant Coursework",
-    "section": "",
-    "text": "Elementary Biochemistry\nApplied Biochemistry\nMolecular & Cell Biology I\nMolecular & Cell Biology II\nMolecular Biology of the Gene\nMolecular Toxicology\nCell Growth & Differentiation\nProtein & Molecular Cloning Laboratory\nMolecular Biology Laboratory"
-  },
-  {
-    "objectID": "Relevant Coursework.html#biology-genetics",
-    "href": "Relevant Coursework.html#biology-genetics",
-    "title": "Relevant Coursework",
-    "section": "",
-    "text": "Biology: Concepts of Biodiversity\nGenetics\nBiology of Cancer\nSpecial Topics: Sensory Biology"
-  },
-  {
-    "objectID": "Relevant Coursework.html#chemistry",
-    "href": "Relevant Coursework.html#chemistry",
-    "title": "Relevant Coursework",
-    "section": "",
-    "text": "Chemical Principles I & II\nExperimental Chemistry I & II\nOrganic Chemistry I & II\nOrganic Chemistry Laboratory"
-  },
-  {
-    "objectID": "Relevant Coursework.html#microbiology-immunology",
-    "href": "Relevant Coursework.html#microbiology-immunology",
-    "title": "Relevant Coursework",
-    "section": "",
-    "text": "Introductory Microbiology\nIntroductory Microbiology Laboratory\nPrinciples of Immunology\nLaboratory General Applied Microbiology\nMicrobial Biotechnology"
-  },
-  {
-    "objectID": "Relevant Coursework.html#biotechnology-applied-biosciences",
-    "href": "Relevant Coursework.html#biotechnology-applied-biosciences",
-    "title": "Relevant Coursework",
-    "section": "",
-    "text": "Animal Cell Culture Methods\nPlant Culture and Biotechnology\nMethods in Biofermentation\nGenomics\nBioinformatics I\nIssues in Biotechnology\nResearch Practice"
-  },
-  {
-    "objectID": "Relevant Coursework.html#research-professional-development",
-    "href": "Relevant Coursework.html#research-professional-development",
-    "title": "Relevant Coursework",
-    "section": "",
-    "text": "Cell Research I\nIndividual Studies (Independent Research)\nBiotechnology Colloquium\nEthics, Rigor & Reproducibility in Research"
+    "text": "Recent studies from the Chopra laboratory at Penn State have clarified the role of the maize Unstable factor for orange1 (ufo1) gene in kernel development. In 2021, Chatterjee et al. showed that both overexpression and loss-of-function ufo1 mutants display severe defects in basal endosperm transfer layer (BETL) differentiation, resulting in impaired nutrient transport and broad misregulation of endosperm-specific gene expression.\nSubsequent work in 2024 further demonstrated that ZmUFO1 is a nuclear, intrinsically disordered protein that influences chromatin organization and redox homeostasis. Loss-of-function mutants accumulated reactive oxygen species, exhibited altered acetyl-CoA levels and histone acetylation patterns, and showed disrupted heterochromatin structure. Protein interaction analyses implicated ZmUFO1 in chromatin remodeling and transcriptional regulation.\nCollectively, these findings establish UFO1 as a maize-specific regulator that integrates metabolic signaling, epigenetic state, and cell differentiation during endosperm development."
   },
   {
     "objectID": "blog.html",
@@ -159,5 +117,54 @@
     "title": "Building This Website with Quarto",
     "section": "Conclusion",
     "text": "Conclusion\nBuilding this website with Quarto has been a rewarding experience. The platform provides exactly what I need: a professional CV presentation, blog capabilities, and the potential to share computational work with integrated code and visualizations. The automated deployment through GitHub Actions means I can focus on content rather than infrastructure.\nI encourage anyone working in science, technology, or academia to consider Quarto for their professional website. It’s free, open-source, and designed specifically for technical communication.\nThanks for reading, and stay tuned for more posts on biotechnology, research, and data science!\n\nWant to see how this site was built? Check out the source code on GitHub."
+  },
+  {
+    "objectID": "Relevant Coursework.html",
+    "href": "Relevant Coursework.html",
+    "title": "Relevant Coursework",
+    "section": "",
+    "text": "Elementary Biochemistry\nApplied Biochemistry\nMolecular & Cell Biology I\nMolecular & Cell Biology II\nMolecular Biology of the Gene\nMolecular Toxicology\nCell Growth & Differentiation\nProtein & Molecular Cloning Laboratory\nMolecular Biology Laboratory\n\n\n\n\n\nBiology: Concepts of Biodiversity\nGenetics\nBiology of Cancer\nSpecial Topics: Sensory Biology\n\n\n\n\n\nChemical Principles I & II\nExperimental Chemistry I & II\nOrganic Chemistry I & II\nOrganic Chemistry Laboratory\n\n\n\n\n\nIntroductory Microbiology\nIntroductory Microbiology Laboratory\nPrinciples of Immunology\nLaboratory General Applied Microbiology\nMicrobial Biotechnology\n\n\n\n\n\nAnimal Cell Culture Methods\nPlant Culture and Biotechnology\nMethods in Biofermentation\nGenomics\nBioinformatics I\nIssues in Biotechnology\nResearch Practice\n\n\n\n\n\nCell Research I\nIndividual Studies (Independent Research)\nBiotechnology Colloquium\nEthics, Rigor & Reproducibility in Research"
+  },
+  {
+    "objectID": "Relevant Coursework.html#biochemistry-molecular-biology",
+    "href": "Relevant Coursework.html#biochemistry-molecular-biology",
+    "title": "Relevant Coursework",
+    "section": "",
+    "text": "Elementary Biochemistry\nApplied Biochemistry\nMolecular & Cell Biology I\nMolecular & Cell Biology II\nMolecular Biology of the Gene\nMolecular Toxicology\nCell Growth & Differentiation\nProtein & Molecular Cloning Laboratory\nMolecular Biology Laboratory"
+  },
+  {
+    "objectID": "Relevant Coursework.html#biology-genetics",
+    "href": "Relevant Coursework.html#biology-genetics",
+    "title": "Relevant Coursework",
+    "section": "",
+    "text": "Biology: Concepts of Biodiversity\nGenetics\nBiology of Cancer\nSpecial Topics: Sensory Biology"
+  },
+  {
+    "objectID": "Relevant Coursework.html#chemistry",
+    "href": "Relevant Coursework.html#chemistry",
+    "title": "Relevant Coursework",
+    "section": "",
+    "text": "Chemical Principles I & II\nExperimental Chemistry I & II\nOrganic Chemistry I & II\nOrganic Chemistry Laboratory"
+  },
+  {
+    "objectID": "Relevant Coursework.html#microbiology-immunology",
+    "href": "Relevant Coursework.html#microbiology-immunology",
+    "title": "Relevant Coursework",
+    "section": "",
+    "text": "Introductory Microbiology\nIntroductory Microbiology Laboratory\nPrinciples of Immunology\nLaboratory General Applied Microbiology\nMicrobial Biotechnology"
+  },
+  {
+    "objectID": "Relevant Coursework.html#biotechnology-applied-biosciences",
+    "href": "Relevant Coursework.html#biotechnology-applied-biosciences",
+    "title": "Relevant Coursework",
+    "section": "",
+    "text": "Animal Cell Culture Methods\nPlant Culture and Biotechnology\nMethods in Biofermentation\nGenomics\nBioinformatics I\nIssues in Biotechnology\nResearch Practice"
+  },
+  {
+    "objectID": "Relevant Coursework.html#research-professional-development",
+    "href": "Relevant Coursework.html#research-professional-development",
+    "title": "Relevant Coursework",
+    "section": "",
+    "text": "Cell Research I\nIndividual Studies (Independent Research)\nBiotechnology Colloquium\nEthics, Rigor & Reproducibility in Research"
   }
 ]
