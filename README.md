@@ -438,6 +438,19 @@ Chopra Maize Genetics Lab
 
 GitHub: [@BaileyMBarenick](https://github.com/BaileyMBarenick)
 
+## Changelog
+
+| Date & Time (UTC) | Change |
+|---|---|
+| 2026-02-17 16:00 | Converted site from Jekyll to Quarto; added blog support and GitHub Actions deployment |
+| 2026-02-17 16:03 | Fixed Quarto version parameter in GitHub Actions workflow |
+| 2026-02-17 16:05 | Initialized `gh-pages` branch for deployment |
+| 2026-02-17 16:07 | Removed conflicting `index.md` (replaced by `index.qmd`) |
+| 2026-02-17 16:08 | Expanded README with full project documentation |
+| 2026-02-24 | Added relevant coursework as collapsible dropdown to CV homepage |
+| 2026-02-24 | Added three-image header (lab logo, DNA analysis, maize) to CV homepage |
+| 2026-02-24 | Added blog post: *UFO1 as a Regulator of Maize Endosperm Development* |
+
 ## License
 
 © 2026 Bailey M. Barenick. All rights reserved.

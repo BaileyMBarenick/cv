@@ -1,0 +1,38 @@
+---
+title: "UFO1 as a Regulator of Maize Endosperm Development"
+subtitle: "Recent findings from the Chopra Lab on chromatin organization, redox homeostasis, and cell differentiation"
+author: "Bailey M. Barenick"
+date: "2026-02-24"
+categories: [research, maize-genetics, epigenetics, endosperm]
+draft: false
+---
+
+## Overview
+
+Recent studies from the Chopra Laboratory at Penn State have clarified the role of the maize *Unstable factor for orange1* (*ufo1*) gene in kernel development.
+
+## 2021: UFO1 and Basal Endosperm Transfer Layer Differentiation
+
+Chatterjee et al. (2021) showed that both overexpression and loss-of-function *ufo1* mutants display severe defects in basal endosperm transfer layer (BETL) differentiation, resulting in:
+
+- Impaired nutrient transport
+- Broad misregulation of endosperm-specific gene expression
+
+## 2024: Chromatin Organization and Redox Homeostasis
+
+Subsequent work demonstrated that ZmUFO1 is a **nuclear, intrinsically disordered protein** that influences chromatin organization and redox homeostasis. Key findings in loss-of-function mutants included:
+
+- Accumulation of reactive oxygen species (ROS)
+- Altered acetyl-CoA levels and histone acetylation patterns
+- Disrupted heterochromatin structure
+
+Protein interaction analyses further implicated ZmUFO1 in chromatin remodeling and transcriptional regulation.
+
+## Summary
+
+Collectively, these findings establish UFO1 as a maize-specific regulator that integrates **metabolic signaling**, **epigenetic state**, and **cell differentiation** during endosperm development.
+
+## References
+
+- Chatterjee, M. et al. (2021). *Unstable factor for orange1* controls basal endosperm transfer layer differentiation in maize. *Plant Cell*.
+- Chopra Lab (2024). ZmUFO1 is a nuclear intrinsically disordered protein regulating chromatin organization and redox homeostasis in maize endosperm.
