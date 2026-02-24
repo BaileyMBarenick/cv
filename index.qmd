@@ -5,7 +5,7 @@ page-layout: full
 toc: true
 ---
 
-::: {layout-ncol=3}
+::: {layout-ncol=3 .header-images}
 ![Chopra Maize Genetics Lab logo](chopra_maize_genetics_lab_logo.jpg)
 
 ![DNA double helix analysis visualization](https://dnatestingchoice.com/perch/resources/dna-analysis-w435.jpg)
